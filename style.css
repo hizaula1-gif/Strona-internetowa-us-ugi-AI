@@ -1,0 +1,149 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    line-height: 1.6;
+    scroll-behavior: smooth;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background: #fff;
+    border-bottom: 1px solid #eee;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+#logo {
+    font-weight: bold;
+    color: #0d7342;
+    font-size: 1.2rem;
+}
+
+nav a {
+    margin-left: 1.5rem;
+    text-decoration: none;
+    color: #333;
+}
+
+nav a:hover {
+    color: #0d7342;
+}
+
+main {
+    padding: 2rem;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+section {
+    padding: 3rem 0;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+#powitanie h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+#przycisk-powitalny, #przycisk-wyslij {
+    display: inline-block;
+    background: #0d7342;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    text-decoration: none;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-top: 1rem;
+}
+
+#przycisk-powitalny:hover, #przycisk-wyslij:hover {
+    background: #09522f;
+}
+
+#kontener-kart, #kroki-kontener {
+    display: flex;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+    margin-top: 1.5rem;
+}
+
+.karta, .krok {
+    background: #f4fbf7;
+    border: 1px solid #d4ede1;
+    padding: 1.5rem;
+    border-radius: 8px;
+    flex: 1;
+    min-width: 250px;
+}
+
+.krok span {
+    font-weight: bold;
+    color: #0d7342;
+    font-size: 1.2rem;
+}
+
+form {
+    max-width: 400px;
+    margin-top: 1rem;
+}
+
+.pole-formularza {
+    margin-bottom: 1rem;
+}
+
+.pole-formularza label {
+    display: block;
+    margin-bottom: 0.3rem;
+}
+
+.pole-formularza input {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.ukryty {
+    display: none;
+}
+
+#komunikat {
+    margin-top: 1rem;
+    padding: 0.75rem;
+    border-radius: 4px;
+}
+
+#komunikat.sukces {
+    background: #d4ede1;
+    color: #0d7342;
+    display: block;
+}
+
+#komunikat.blad {
+    background: #fde8e8;
+    color: #c53030;
+    display: block;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 2rem;
+    background: #f9f9f9;
+    font-size: 0.9rem;
+}
+
+footer a {
+    color: #0d7342;
+    text-decoration: none;
+}

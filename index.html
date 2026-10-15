@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Czy AI poleca Twoją markę?</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header id="naglowek">
+        <div id="logo">LOGO</div>
+        <nav id="menu">
+            <a href="#o-nas">O nas</a>
+            <a href="#oferta">Oferta</a>
+            <a href="#jak-to-dziala">Jak to działa</a>
+            <a href="#kontakt">Kontakt</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="powitanie">
+            <h1>Czy AI poleca Twoją markę?</h1>
+            <p>Sprawdź, jak Twoja oferta pojawia się w odpowiedziach narzędzi AI.</p>
+            <a href="#kontakt" id="przycisk-powitalny">Sprawdź widoczność</a>
+        </section>
+
+        <section id="o-nas">
+            <h2>O nas</h2>
+            <p>Pomagamy markom zrozumieć i zoptymalizować ich obecność w nowoczesnych algorytmach sztucznej inteligencji.</p>
+        </section>
+
+        <section id="oferta">
+            <h2>Oferta</h2>
+            <div id="kontener-kart">
+                <div class="karta">
+                    <h3>Monitoring AI</h3>
+                    <p>Śledzimy, kiedy i w jaki sposób modele językowe wspomominają Twoją markę.</p>
+                </div>
+                <div class="karta">
+                    <h3>Analiza konkurencji</h3>
+                    <p>Sprawdzamy, jak na tle sztucznej inteligencji wypadają Twoi główni rywale.</p>
+                </div>
+                <div class="karta">
+                    <h3>Rekomendacje</h3>
+                    <p>Otrzymaj konkretne wskazówki, jak zwiększyć widoczność i polecenia w AI.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="jak-to-dziala">
+            <h2>Jak to działa</h2>
+            <div id="kroki-kontener">
+                <div class="krok">
+                    <span>1</span>
+                    <h3>Podaj adres strony</h3>
+                    <p>Wpisz swój adres WWW w formularzu kontaktowym.</p>
+                </div>
+                <div class="krok">
+                    <span>2</span>
+                    <h3>Analiza</h3>
+                    <p>Nasz system sprawdza zapytania powiązane z Twoją branżą.</p>
+                </div>
+                <div class="krok">
+                    <span>3</span>
+                    <h3>Otrzymaj wyniki</h3>
+                    <p>Odbierz raport z rekomendacjami wzrostu widoczności.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="kontakt">
+            <h2>Kontakt</h2>
+            <form id="formularz-kontaktowy">
+                <div class="pole-formularza">
+                    <label for="pole-imie">Imię:</label>
+                    <input type="text" id="pole-imie" name="imie">
+                </div>
+                <div class="pole-formularza">
+                    <label for="pole-email">E-mail:</label>
+                    <input type="text" id="pole-email" name="email">
+                </div>
+                <div class="pole-formularza">
+                    <label for="pole-www">Adres WWW:</label>
+                    <input type="text" id="pole-www" name="www">
+                </div>
+                <button type="submit" id="przycisk-wyslij">Wyślij</button>
+                <p id="komunikat" class="ukryty"></p>
+            </form>
+        </section>
+    </main>
+
+    <footer id="stopka">
+        <p> <span id="biezacy-rok"></span> Projekt AI. Kontakt: kontakt@przyklad.pl</p>
+        <a href="#naglowek" id="link-do-gory">W górę &uarr;</a>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
